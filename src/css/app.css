@@ -1,0 +1,41 @@
+@media (min-width: 1600px) {
+    .page {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1600px) and (min-width: 1024px) {
+    .page {
+        width: 40%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .page {
+        width: 50%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 480px) {
+    .page {
+        width: 70%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .page {
+        width: 95%;
+        height: 500px;
+    }
+}
+
+.tui-grid-cell.row-click-yellow {
+  background-color: #FFFFE9;
+}
+
+.remove-btn {
+  background-color: #EB455F;
+}
